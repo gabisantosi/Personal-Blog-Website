@@ -1,4 +1,56 @@
+header,
+.social-section h2 {
+  text-align: center;
+}
+
+.container-author {
+  display: flex;
+  justify-content: center;
+}
+
+.authorsection {
+  padding: 1rem;
+  margin: 2rem;
+  background-color: rgba(170, 96, 108, 0.055);
+}
+
 .img-avatar {
-    width: 50px;
-    height: 50px;
-  }
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: 5px;
+}
+
+.container-article {
+  display: flex;
+  justify-content: center;
+  background-color: var(--lightgray);
+  padding: 1rem;
+  margin: 0 10%;
+}
+.firstpost {
+  text-align: center;
+}
+
+.firstpost img {
+  width: 20%;
+  min-width: 200px;
+  min-height: 100px;
+}
+
+figcaption {
+  font-size: 8px;
+  text-align: center;
+  padding-left: 1rem;
+}
+
+.container-social {
+  display: flex;
+  justify-content: center;
+}
+
+.social-section a {
+  text-decoration: none;
+  padding: 2rem;
+  margin: -2rem 0 0 -2rem;
+}
