@@ -2,67 +2,91 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mamma Gi's Blog</title>
-    <link rel="stylesheet" href="stylesheet/default.css">
-    <link rel="icon" href="img/icons8-estrela-16.png">
+    <link rel="stylesheet" href="stylesheet/default.css" />
+    <link rel="icon" href="img/icons8-estrela-16.png" />
   </head>
   <body>
-    <nav>
-      <ul>
-        <h1>Mamma Gi's Blog</h1>
-        <li>
-          <a href="html/post.html">the first link</a>
-        </li>
-        <li>
-          <a href="html/post.html">the second link</a>
-        </li>
-        <li>
-          <a href="html/post.html">the third link</a>
-        </li>
-      </ul>
-    </nav>
-    <div class="postcard-section">
-      <div class="firstcard">
-        <div class="card">
-          <h2>Wake up with the best morning routine. </h2>
-        </div>
-        <figure>
-          <img src="img/baby-bear-unsplash.jpg" alt="Baby yawning and wearing a bear hat" class="img-post">
-          <figcaption><i>Image source: Unsplash</i></figcaption>
-        </figure>
-        <a href="html/post.html">
-          <button>Read post</button>
-        </a>
+    <div class="container">
+      <div class="header">
+        <a href="homepage.html"><h1>Mamma Gi's Blog <img src="img/baby-girl1.png" alt="baby" class="img-title"></h1></a>
       </div>
-      <div class="secondcard">
-        <div class="card">
-          <h2>Sleeping the whole night. Is it possible?</h2>
+      <nav class="navbar">
+        <a href="https://wwww.gofundme.com" target="_blank">Donate</a>
+        <a href="mailto:mammagi@example.com" target="_blank">Contact</a>
+      </nav>
+      <div class="sidebar">
+        <div class="aboutme">
+          <p><b>About me</b></p>
+          <p>I am a Front-end Developer and a proud mom.</p>
         </div>
-        <figure>
-          <img src="img/baby-sleeping-unsplash.jpg" alt="Baby sleeping" class="img-post">
-          <figcaption><i>Image source: Unsplash</i></figcaption>
-        </figure>
-        <a href="html/post.html">
-          <button>Read post</button>
-        </a>
-      </div>
-      <div class="thirdcard">
-        <div class="card">
-          <h2>10 reasons why you should breastfeed.</h2>
+        <div class="archive">
+          <p><b>Archive</b></p>
+          <ul>
+            <li><a href="html/post.html">December</a></li>
+            <li><a href="html/post.html">January</a></li>
+            <li><a href="html/post.html">February</a></li>
+          </ul>
         </div>
-        <figure>
-          <img src="img/baby-smiling-unsplash.jpg" alt="Baby smiling" class="img-post">
-          <figcaption><i>Image source: Unsplash</i></figcaption>
-        </figure>
-        <a href="html/post.html">
-          <button>Read post</button>
-        </a>
+        <div class="elsewhere">
+          <p><b>Elsewhere</b></p>
+          <ul>
+            <li><a href="http://wwww.twitter.com">Twitter</a></li>
+            <li><a href="http://wwww.facebook.com">Facebook</a></li>
+            <li><a href="http://wwww.linkedin.com">Linkedin</a></li>
+          </ul>
+        </div>
       </div>
+      <div class="main">
+        <div class="first-post">
+          <h2><u>3 Useful baby articles you must read:</u></h2>
+          <p>February 14th, 2022 by Mamma Gi</p>
+          <div class="post-card">
+            <h3>1 - Wake up with the best morning routine.</h3>
+            <figure>
+              <img
+                src="img/baby-bear-unsplash.jpg"
+                alt="Baby yawning and wearing a bear hat"
+                class="img-post"
+              />
+              <figcaption><i>Image source: Unsplash</i></figcaption>
+            </figure>
+            <a href="html/post.html">
+              <button>Read article</button>
+            </a>
+            <h3>2 - Sleeping the whole night. Is it possible?</h3>
+            <figure>
+              <img
+                src="img/baby-sleeping-unsplash.jpg"
+                alt="Baby sleeping"
+                class="img-post"
+              />
+              <figcaption><i>Image source: Unsplash</i></figcaption>
+            </figure>
+            <a href="html/post.html">
+              <button>Read article</button>
+            </a>
+            <h3>3 - 10 reasons why you should breastfeed.</h3>
+            <figure>
+              <img
+                src="img/baby-smiling-unsplash.jpg"
+                alt="Baby smiling"
+                class="img-post"
+              />
+              <figcaption><i>Image source: Unsplash</i></figcaption>
+            </figure>
+            <a href="html/post.html">
+              <button>Read article</button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <p><i>"Build today the tomorrow you want."</i></p>
+        <p><i>Gabriela Silva, 2022</i></p>
+      </footer>
     </div>
-    <footer>
-      <p>Gabriela Silva, 2022 - <i>"Today is the opportunity to build the tomorrow you want."</i></p>
-    </footer>
   </body>
 </html>
